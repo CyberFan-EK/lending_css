@@ -3,11 +3,16 @@
           box-sizing: border-box;
 }
 
+.container {
+  width: 1467px;
+  margin: 0 auto;
+}
+
 * {
   font-family: 'Exo', sans-serif;
 }
 
-.header {
+.header-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,11 +26,10 @@
           justify-content: center;
   background-image: url("../img/photo-1433354359170-23a4ae7338c6.png");
   background-size: cover;
-  width: 1467px;
   height: 813px;
 }
 
-.header__title {
+.header-box__title {
   width: 708px;
   height: 138px;
   color: #282828;
@@ -36,7 +40,7 @@
   letter-spacing: 2.4px;
 }
 
-.header__btn {
+.header-box__btn {
   margin-top: 35px;
   margin-bottom: 20px;
   border: none;
@@ -49,10 +53,59 @@
   text-transform: uppercase;
 }
 
-.header__subtitle {
+.header-box__subtitle {
   font-size: 14px;
   color: #282828;
   opacity: 0.6;
   letter-spacing: 0.56px;
+}
+
+.description {
+  height: 724px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.description-text {
+  max-width: 872px;
+  padding-top: 190px;
+  margin: 0 150px;
+}
+
+.description-text__title {
+  margin: 0 0 16px;
+  color: #ff6d6d;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+  font-weight: 500;
+}
+
+.description-text__maintitle {
+  margin: 0;
+  color: #282828;
+  max-width: 532px;
+  font-family: Exo;
+  font-size: 40px;
+  font-weight: 500px;
+  line-height: 50px;
+}
+
+.description-text__point {
+  color: #ff6d6d;
+  letter-spacing: 1.6px;
+}
+
+.description-text__text {
+  opacity: 0.66;
+  width: 571px;
+}
+
+.description-img {
+  background: #f6f5f3 url("../img/description/Rectangle_21_copy.png") no-repeat;
+  opacity: 0.8;
+  background-position: bottom left;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
