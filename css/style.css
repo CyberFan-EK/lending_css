@@ -8,6 +8,10 @@
   margin: 0 auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 * {
   font-family: 'Exo', sans-serif;
 }
@@ -107,5 +111,37 @@
   opacity: 0.8;
   background-position: bottom left;
   width: 100%;
+}
+
+.features {
+  height: 675px;
+  background-color: #f6f5f3;
+}
+
+.features-box {
+  position: relative;
+}
+
+.features-box-maintitle {
+  margin: 0 auto;
+}
+
+.features-img {
+  position: absolute;
+}
+
+.features-img__img1 {
+  top: 0;
+  left: 95px;
+}
+
+.features-img__img2 {
+  top: 0;
+  right: 200px;
+}
+
+.features-img__img3 {
+  bottom: 0;
+  right: 110px;
 }
 /*# sourceMappingURL=style.css.map */
